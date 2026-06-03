@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Onyx</title>
+        <item>
+            <title>1.1.5</title>
+            <pubDate>Wed, 03 Jun 2026 15:03:40 +0300</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/deeppacketdev-hub/onyx-launcher/releases/download/v1.1.5/Onyx.1.1.5.zip" length="5245015" type="application/octet-stream" sparkle:edSignature="KefiTRoxjRTN9c2UuTDLPgi/dJ4NhyMpOKfTXeuYytHzS01w4xODGTLHc+xWbjdbh8FsjKkr9w2YiLKhGqGFBg=="/>
+        </item>
+    </channel>
+</rss>
