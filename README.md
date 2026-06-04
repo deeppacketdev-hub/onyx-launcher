@@ -25,7 +25,7 @@
 ## 🛠 System Requirements
 
 * **Operating System:** macOS 14.0 (Sonoma) or newer.
-* **Hardware Support:** Native support for both Apple Silicon (M1/M2/M3/M4) and Intel-based Macs.
+* **Hardware Support:** Native support for both Apple Silicon and Intel-based Macs.
 
 ---
 
