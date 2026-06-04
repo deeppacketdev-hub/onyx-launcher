@@ -10,7 +10,7 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <<enclosure 
     url="https://github.com/deeppacketdev-hub/onyx/releases/download/v1.1.6/Onyx-v1.1.6.pkg"
-    sparkle:version="18" 
+    sparkle:version="19" 
     sparkle:shortVersionString="1.1.6" 
     type="application/octet-stream" />
 
