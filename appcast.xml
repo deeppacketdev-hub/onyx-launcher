@@ -7,7 +7,7 @@
             <pubDate>Wed, 04 Jun 2026 15:03:40 +0300</pubDate>
             <sparkle:version>19</sparkle:version>
             <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <<enclosure 
     url="https://github.com/deeppacketdev-hub/onyx/releases/download/v1.1.6/Onyx-v1.1.6.pkg"
     sparkle:version="19" 
