@@ -3,12 +3,12 @@
     <channel>
         <title>Onyx</title>
         <item>
-            <title>1.1.6</title>
-            <pubDate>Thu, 04 Jun 2026 20:29:09 +0300</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <title>1.1.7</title>
+            <pubDate>Fri, 05 Jun 2026 11:01:09 +0300</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/deeppacketdev-hub/onyx-launcher/releases/download/v1.1.6/Onyx.1.1.6.zip" length="5265757" type="application/octet-stream" sparkle:edSignature="uT7rgVJCXIQzRP9Os1naBtnxlqixIq2JC4aE9VQcWnqDz8/K5bxLXeHj7DUshKViT04KvFtALS6MRKSFe0TPBQ=="/>
+            <enclosure url="https://github.com/deeppacketdev-hub/onyx-launcher/releases/download/v1.1.7/Onyx.1.1.7.zip" length="5382456" type="application/octet-stream" sparkle:edSignature="YlLC3HOBjRUiwirJe2jaZPCt/4RYzJj/ZyrOdIzECFB1iFIJDhJS6uKnMbq+2D4GeocYv9TUHBgkWpgoD8oYDQ=="/>
         </item>
     </channel>
 </rss>
