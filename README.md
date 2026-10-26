@@ -82,18 +82,21 @@ Builds are available for **x86_64** and **aarch64** as an **AppImage** and a **.
 **AppImage (any distribution):**
 
 ```bash
-chmod +x Onyx*.AppImage
-./Onyx*.AppImage
+chmod +x Onyx_*_amd64.AppImage
+./Onyx_*_amd64.AppImage
 ```
 
 > [!NOTE]
-> AppImages need FUSE 2 (`fuse2` on Arch and Artix, `libfuse2` on Debian and Ubuntu). Without it, run `./Onyx*.AppImage --appimage-extract-and-run`.
+> Use `Onyx_*_aarch64.AppImage` on ARM machines. AppImages need FUSE 2 (`fuse2` on Arch and Artix, `libfuse2` on Debian and Ubuntu). Without it, run `./Onyx_*_amd64.AppImage --appimage-extract-and-run`.
 
 **Debian and Ubuntu:**
 
 ```bash
-sudo apt install ./onyx_*_amd64.deb
+sudo apt install ./Onyx_*_amd64.deb
 ```
+
+(`Onyx_*_arm64.deb` on ARM.)
+
 
 **Requirements:** a 64-bit Linux desktop with a recent glibc (2.35 or newer) and WebKitGTK 4.1. Accounts are stored in the system keyring (a Secret Service provider such as GNOME Keyring or KDE Wallet).
 
