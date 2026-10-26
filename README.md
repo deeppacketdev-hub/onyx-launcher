@@ -39,7 +39,7 @@
 ### 👤 Accounts and skins
 * **Three account types:** Microsoft, **Ely.by** (with automatic skin engine injection) and offline accounts.
 * **Safe by design:** Tokens are kept in the system keychain, never in plain files.
-* **Skin browser:** Browse, preview in **3D**, and apply skins, offline accounts included. Players named `Dinnerbone` or `Grumm` get the classic upside-down treatment, just like in the game.
+* **Skin browser:** Browse, preview in **3D**, and apply skins, offline accounts included.
 
 ### 🤝 Play with friends
 * **Friends system:** Add friends, see who is online and which world they are playing in.
