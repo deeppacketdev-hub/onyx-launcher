@@ -1,0 +1,84 @@
+name: 🐞 Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please check the [Troubleshooting](https://github.com/deeppacketdev-hub/onyx-launcher/wiki/Troubleshooting) page first - your problem may already have a fix.
+  - type: input
+    id: version
+    attributes:
+      label: Onyx version
+      description: You can find it in Settings > About, or at the bottom of the sidebar.
+      placeholder: "1.2.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS - Apple Silicon
+        - macOS - Intel
+        - Linux - x86_64
+        - Linux - aarch64
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System version
+      description: macOS version, or Linux distribution and desktop environment.
+      placeholder: "macOS 15.4 / Ubuntu 24.04 GNOME"
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: How did you install Onyx?
+      options:
+        - .zip (macOS)
+        - .pkg (macOS)
+        - AppImage (Linux)
+        - .deb (Linux)
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft version and mod loader
+      description: If the problem is with a specific instance.
+      placeholder: "1.21.1 Fabric"
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        If the game crashed, paste the Console output (use **Copy all**) or `logs/latest.log` from the instance folder. Read it through first and remove anything personal.
+      render: shell
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video
+      description: Drag files here if they help to show the problem.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I checked the Troubleshooting page and searched existing issues.
+          required: true
