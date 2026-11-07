@@ -168,5 +168,5 @@ Found a bug or have an idea? [Open an issue](https://github.com/deeppacketdev-hu
 ---
 
 <div align="center">
-<sub>Onyx is not an official Minecraft product and is not affiliated with Mojang or Microsoft.</sub>
+<sub>© 2026 the Deep Packet team · <a href="LICENSE">License</a> · Onyx is not an official Minecraft product and is not affiliated with Mojang or Microsoft.</sub>
 </div>
